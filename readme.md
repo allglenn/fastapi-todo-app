@@ -83,7 +83,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-glenn  - @glenn_all 
+X - @glenn_all 
 Project Link: https://github.com/allglenn/fastapi-todo-app
 
 
