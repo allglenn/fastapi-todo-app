@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  fastapi:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - mongodb
+    volumes:
+      - ./app:/app
+  mongodb:
+    image: mongo
+    volumes:
+      - mongo_data:/data/db
+volumes:
+  mongo_data:
